@@ -1,0 +1,68 @@
+/* Общие стили */
+body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Шапка сайта */
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Изображение */
+section img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+}
+
+/* Заголовки */
+h1, h2 {
+    color: #4a90e2;
+    text-align: center;
+}
+
+/* Разделы */
+section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+/* Контакты и списки */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Ссылки */
+a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Подвал */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #eee;
+    margin-top: 40px;
+}
+
